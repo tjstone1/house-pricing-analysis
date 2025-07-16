@@ -1,4 +1,4 @@
-# Modelling Housing Prices
+# Modelling House Prices
 
 ## Overview
 
