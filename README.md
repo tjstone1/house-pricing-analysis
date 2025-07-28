@@ -5,7 +5,7 @@
 This project analyses property prices in Oxfordshire and Cambridgeshire, assuming their market dynamics are broadly comparable, to understand key factors influencing market values. Starting with data scraping from online property listings, the process covers cleaning, feature engineering, and statistical modelling to build an interpretable predictive model.
 ## Data Sourcing
 
-Property listing data was scraped from **savills.co.uk** using **Google Puppeteer**.  Savills was chosen because it was the only site I could find whose Terms of Service (ToS) did not prohibit scraping, ensuring the data collection process was compliant and ethical. However, due to ToS restrictions, the raw dataset itself cannot be shared.
+Property listing data was scraped from **savills.co.uk** using **Google Puppeteer**.  Savills was chosen because it was the only site I could find whose Terms of Service (ToS) did not prohibit scraping, ensuring the data collection process was compliant and ethical. However, due to vague ToS restrictions, the raw dataset will not be shared.
 
 ## Project Steps
 
