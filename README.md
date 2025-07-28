@@ -18,8 +18,8 @@ Property listing data was scraped from **savills.co.uk** using **Google Puppetee
 2. **Data Cleaning & Preparation**  (in Google Colab)
    - Removed incomplete records and placeholder entries.  
    - Standardised **area measurements**.  
-   - Converted **tenure** into a boolean (`1 = Freehold`, `0 = Other`), as most properties were freehold (181/191).  
-   - Converted **property type** into a boolean (`1 = House`, `0 = Other`), as most were houses (177/191).  
+   - Converted **tenure** into a boolean (`1 = Freehold`, `0 = Other`), as most properties were freehold.  
+   - Converted **property type** into a boolean (`1 = House`, `0 = Other`), as most were houses.  
    - Encoded **EPC rating** and **council tax band** as **ordered numeric values** to preserve their natural hierarchy and reduce dimensionality.
 
 3. **Modelling**  
